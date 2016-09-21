@@ -1,0 +1,60 @@
+#container {
+   	width: 700px;
+	height: 200px;
+	position: relative;
+	left: 50%;
+	top: 48%; /* for optical centering */
+	margin-top: -100px;
+	margin-left: -300px;
+}
+
+.let {
+	font-family: 'Modak';
+	font-size: 6em;
+	float: left;
+	margin-left: 5px;
+}
+
+@-webkit-keyframes b_move {
+    0% { left:0px; }
+    100% { left:460px; }
+}
+
+#b {
+    position:relative;
+    -webkit-animation: b_move 2s;
+}
+
+#f {
+    letter-spacing: 3px;
+}
+
+@-webkit-keyframes h_move {
+    0% { left:0px; }
+    100% {left: -395px; }
+}
+
+#h {
+    position:relative;
+    -webkit-animation: h_move 2s;
+}
+
+@-webkit-keyframes i_move {
+    0% { left: 0px; }
+    100% {left: -195px; }
+}
+
+#i {
+    position:relative;
+    -webkit-animation: i_move 2s;
+}
+
+@-webkit-keyframes f_move {
+    0% { left: 0px; }
+    100% {left: 60px; }
+}
+
+#f {
+    position:relative;
+    -webkit-animation: f_move 2s;
+}
